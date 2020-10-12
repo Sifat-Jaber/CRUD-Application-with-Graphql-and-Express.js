@@ -1,0 +1,11 @@
+{
+  "name": "rokomari-crud-project",
+  "version": "1.0.0",
+  "description": "Rokomari CRUD Project using Graphql and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
