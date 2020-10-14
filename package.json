@@ -1,11 +1,19 @@
 {
-  "name": "rokomari-crud-project",
+  "name": "graphql-crud-project",
   "version": "1.0.0",
-  "description": "Rokomari CRUD Project using Graphql and Express.js",
-  "main": "index.js",
+  "description": "CRUD Project using GraphQL and Express.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
 }
